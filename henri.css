@@ -1,0 +1,510 @@
+html{
+    overflow-x: hidden;
+overflow-y: auto;
+width: 100%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+line-height: 1.5;
+font-size: 15px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.gras{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #424242;
+    position: relative;
+    top: 5px;
+}
+.log{
+position: relative;
+left: 150px;
+width: 80px;
+cursor: pointer;
+}
+.img{
+    position: relative;
+    cursor: pointer;
+}
+.log1{
+    position: relative;
+    left: 170px;
+    cursor: pointer;   
+}
+.log2{
+    position: relative;
+    left: 500px;
+    font-size: 14px;
+}
+.log3{
+    position: relative;
+    left: 600px;
+}
+.background{
+    background-color: #002a40;
+    height: 60px;
+}
+.liens ul{
+    display: flex;
+    gap: 40px;
+}
+.liens{
+    position: relative;
+    left: 230px;
+    top: 15px;
+}
+.liens li a{
+    text-decoration: none;
+    color:#9e9e9e;
+    list-style: none;     
+}
+.liens li{
+    list-style: none;   
+}
+li a:hover{
+    color: #fff;    
+}
+.l0{
+    transition: background-color .3s;
+    cursor: pointer;
+}
+.public{
+    position: relative;
+    top: -10px;
+}
+.rech{
+position: relative;
+left: 350px;
+top: 30px;
+}
+input{
+    width: 450px;
+height: 45px;
+border: none;
+border-bottom: 1px solid #9e9e9e
+}
+.imgrech{
+    position: relative;
+    left: 800px;
+    top: -5px;
+    z-index: 1;
+}
+.but{
+    position: relative;
+    left: 770px;
+    height: 45px;
+    width: 120px;
+    top: -15px;
+    background-color: #448AFF;
+    border-bottom-right-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+span{
+    position: relative;
+    left: 10px;
+}
+.sect{
+    background-color: #f5f5f5;
+}
+.fer{
+    position: relative;
+    left: 500px;
+}
+.p1{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.p2{
+    position: relative;
+    top: -25px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.ss{
+    height: 470px;
+}
+.grand{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 100px;
+}
+.grand img{
+    position: relative;
+    top: 10px;
+}
+.grand div{
+    border:#9e9e9e;
+    border-radius: 3px;
+    background-color: rgb(250, 253, 253);
+    width: 250px;
+    font-size: 1.1rem;
+    height: 12em;
+    text-align: center;
+    cursor: pointer;     
+}
+.grand div:hover{
+    background-color: #002a40;
+    color: white;
+    transition: .3s ease-out;
+    background:linear-gradient(180deg, #448aff,#002a40);
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px rgba(0,0,0,0.19);
+}
+.grand a{
+text-decoration: none;
+color: #424242;
+}
+.grand a:hover{
+    color: white;
+    }
+.divbut{
+    position: relative;
+    top: 30px;
+    left: 530px;
+    color: #fff;
+    background-color: #002a40;
+    width: 250px;
+    text-align: center;
+    height: 35px;
+    border-radius: 3px;
+}
+.voir a{
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+.fiche{
+    position: relative;
+    left: 500px;
+    top: 60px;
+}
+.ss1{
+    background-color: #f5f5f5;
+    height: 820px;
+}
+.fichep{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.fichep1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    top: -35px;
+}
+.boss{
+    display: flex;
+    gap: 40px;
+}
+.boss div{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    border: none;
+    width: 230px;
+    left: 120px;
+    height: 220px;
+    border-radius: 3px;
+    background-color:#fff;
+}
+.boss div:hover{
+    background:linear-gradient(180deg, #fff);
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px rgba(0,0,0,0.19);   
+}
+.boss2{
+    display: flex;
+    gap: 40px;
+}
+.boss2 div{
+    text-align: center;
+    position: relative;
+    top: 120px;
+    border: none;
+    width: 230px;
+    left: 120px;
+    height: 220px;
+    border-radius: 3px;
+    background-color:#fff;
+}
+    .boss p{
+        position: relative;
+        top: 30px;
+    }
+    .boss2 p{
+        position: relative;
+        top: 30px;  
+    }
+    .boss img{
+        position: relative;
+        top: 30px  
+    }
+    .boss2 img{
+        position: relative;
+        top: 30px  
+    }
+    .boss2 div:hover{
+        background:linear-gradient(180deg, #fff);
+        box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px rgba(0,0,0,0.19);   
+    }
+    .boss  a{
+        text-decoration: none;
+        color: #424242;
+    }
+    .boss2  a{
+        text-decoration: none;
+        color: #424242;
+    }.app{
+        position: relative;
+        top: 150px;
+        left: 550px;
+        height: 40px;
+        background-color: #002a40;
+        width: 250px;
+        text-align: center;
+    }
+    .app a{
+        text-decoration: none;
+        position: relative;
+        top: 5px;
+        color: #fff;
+    }
+    /* .gauchedroite{
+        display: flex;
+        gap: 40px;
+        position: relative;
+        left: 50px;
+    }
+    .gauchedroite div{
+        border: red solid;
+        width: 550px;
+        height: 500px;
+    } */
+    .footerh{
+        background-color: #002a40;
+        height: 400px;
+    }
+    .sfooter{
+        display: flex;
+        gap: 50px; 
+    }
+    .sfooter div{
+        width: 200px;
+        position: relative;
+        left: 150px;
+        color:#fff;
+        font-weight: 200;
+        font-size: 15px;
+    }
+    .sfooter span{
+        color: #fff;
+        font-weight: 500;
+    }
+    hr{
+        width: 900px;
+        position: relative;
+        top: 10px;
+    }
+    .pfoot{
+        position: relative;
+        left: 450px;
+        top: 60px;
+        color: #fff;
+        font-weight: 100;
+        font-size: 10px;
+    }
+
+
+   
+    .footer2{
+        text-align: center;
+        color: white;
+    }
+    .footer:hover{
+        color: rgb(212, 195, 195);
+    } 
+    
+
+
+    html{
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 100%;
+        height: 100%;
+        font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    /* .section1{
+       margin-top: 5px;
+    } */
+    .haut{
+        display: flex;
+        gap: 20px;
+        margin-left: 150px;
+    }
+    .admi{
+      font-size: 15px;
+      font-weight: 15px;
+    } 
+    .public{
+        font-size: 2em;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    } 
+    .droit{
+        display: flex;
+        gap: 20px;
+        position: absolute;
+        bottom: 475px;
+        left: 900px;
+        top: 15px;
+    }
+    .menu{
+        display: flex;
+        list-style-type: none;
+        padding:25px 200px;
+        background-color:#002a40;
+        gap: 40px;
+    }
+    .menu a{
+        color: #88a0ac;
+        text-decoration: none;
+    }
+    .e{
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    a:hover{
+        color: white;
+    }
+    .section3{
+    background-color: rgb(84, 94, 103);
+    display: flex;
+    gap: 350px;
+    padding-left: 100px;
+    position: relative;
+    bottom: 25px;
+    }
+    .recherche p{
+        position: relative;
+        background-color:red;
+        color: white;
+        padding: 5px 20px;
+        bottom: 15px;
+    }
+    .recherche img{
+        position: relative;
+        top: 30px;
+        left: 5px;
+        z-index: 10;
+    }
+    .section4{
+        background-color: #002a40;
+        display: flex;
+        gap: 50px;
+        padding-left: 100px;
+        position: relative;
+    bottom: 25px;
+    }
+    .flèche{
+        position: relative;
+       top: 13px;
+    }
+    .p{
+        color: white;
+    }
+    .colone0{
+        
+        background-color: #002a40;
+        color: white;
+        text-align: center;
+        width: 500px;
+        height: 120px;
+        position: relative;
+        top: -110px;
+        left: 150px;
+    }
+    .colone1{
+        /* border: 1px solid #72797b; */
+        margin-left: 100px;
+    
+    }
+    .colone1 div:hover{
+        box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .colone1 div{
+        height: 1.5cm;
+        width: 400px;
+        border: 1px solid #72797b;
+    }
+    .colone2 hr{
+        position:relative;
+    top: -20px;
+    line-height: 0.5;
+    width: 500px;
+    }
+    .colone1 p{
+        position: relative;
+        bottom: 30px;
+        left: 50px;
+    }
+    .colone1 img{
+        position: relative;
+       top: 15px
+    }
+    .colone2{
+        border: 1px solid #72797b;
+        position: relative;
+        left: 100px;
+        padding: 10px 25px;
+        height: 1100px;
+        width: 540px;
+        top: -200px;
+    }
+    .colone2 div{
+        height: 1.5cm;
+    }
+    .colone2 h1{
+        position: relative;
+        top: -25px;
+        left: 30px;
+    }
+    .colone2 p{
+        position: relative;
+        bottom: 50px;
+        left: 50px;
+        top: -20px;
+    }
+    .p00{
+        position: relative;
+        top: -10px;
+    }
+    .footer{
+        background-color:#002a40;
+        padding: 20px;
+        color: rgb(167, 184, 200);
+    }
+    .icon{
+        position: relative;
+        bottom: 65px;
+    }
+    .ff1.ff2.ff3{
+       color: white;
+    } 
+    .footer1{
+        display: flex;
+        gap: 200px;
+    }
+    .footer2{
+        text-align: center;
+        color: white;
+    }
+    .footer:hover{
+        color: rgb(212, 195, 195);
+    } 
